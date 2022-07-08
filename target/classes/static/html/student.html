@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增加学生</title>
+</head>
+<body>
+<!--        表单-->
+<!--怎么提交：post
+提交给谁，提交的路径： action-->
+<!--static不用打，但需要下级目录html
+http://localhost:8080/community/html/student.html-->
+        <form method="post" action="/community/alpha/student">
+<!--            文本框-->
+              <p>
+                  姓名：<input type="text" name="name">
+              </p>
+            <p>
+                年龄: <input type="text" name="age">
+            </p>
+<!--            按钮-->
+            <p>
+                <input type="submit" value="保存">
+            </p>
+        </form>
+</body>
+</html>
